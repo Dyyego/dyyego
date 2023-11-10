@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Prova 2 Cadastro de Usuário</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: #ffdeb7;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .form-group label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="text-center">Cadastro de Usuário</h2>
+    <form>
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control col-11" id="nome">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control col-10" id="email">
+        </div>
+        <div class="form-group">
+            <label for="senha">Senha:</label>
+            <input type="password" class="form-control col-10" id="senha">
+        </div>
+        <div class="form-group">
+            <label for="Rua">Rua:</label>
+            <input type="text" class="form-control" id="Rua" placeholder="1234 Rua principal">
+        </div>
+        <div class="form-group">
+            <label for="bairro">Bairro:</label>
+            <input type="text" class="form-control" id="Bairro" placeholder="Apartamento,Estúdio,ou Andar">
+        </div>
+        <div class="form-row">
+            <div class="form-group col">
+                <label for="cidade">Cidade:</label>
+                <input type="text" class="form-control col-20" id="cidade">
+            </div>
+            <div class="form-group col">
+                <label for="estado">Estado:</label>
+                <select class="form-control" id="estado">
+                    <option value="Escolha">Escolha...</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+               
+                </select>
+            </div>
+            <div class="form-group col">
+                <label for="zip">Zip:</label>
+                <input type="text" class="form-control col-7" id="zip">
+                <!--não entendi muito bem pra que que serve esse zip professor,
+                     mas tentei deixar o mais parecido possivel da imagem-->
+            </div>
+        </div>
+        
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="checkMeOut">
+            <label class="form-check-label" for="checkMeOut">Aceito os termos e condições</label>
+        </div>
+        
+        <div class="text-right mt-3">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="reset" class="btn btn-warning ml-2 on">Limpar</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

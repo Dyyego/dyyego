@@ -1,0 +1,8 @@
+Lista de Requisitos
+
+RF-07 O sistema deve oferecer uma lista de locais, gerenciar reservas e locações dos locais e as atividades
+RF-14 O sistema deve possuir um mural de divulgação dos próximos eventos
+RF-19 Os fornecedores poderão acessar o sistema por meio de login e senha para informar seus preços e serviços
+RF-10 O sistema deve gerenciar uma lista de convidados e permitir o envio de convites
+RF-08 O sistema deve permitir o cancelamento de um evento e de um convidado
+RF-17 O sistema deverá permitir a cotação de preços entre fornecedores por serviço ofertadoas
